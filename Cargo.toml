@@ -13,4 +13,4 @@ onnx-pb = "^0.1.1"
 
 [dev-dependencies]
 onnx-helpers = "^1.0.0"
-onnx-shape-inference = "^0.0.2"
+onnx-shape-inference = "^1.0.0"
