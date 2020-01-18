@@ -8,9 +8,9 @@ edition = "2018"
 
 [dependencies]
 prost = "^0.6.1"
-ngraph = { version = "*", path = "../ngraph-rs" }
-onnx-pb = { version = "^0.1.1", path = "../onnx-pb-rs" }
+ngraph = { git = "https://github.com/crackcomm/ngraph-rs.git" }
+onnx-pb = "^0.1.1"
 
 [dev-dependencies]
-onnx-helpers = { version = "*", path = "../onnx-helpers-rs" }
-onnx-shape-inference = { version = "*", path = "../onnx-shape-inference-rs" }
+onnx-helpers = "^1.0.0"
+onnx-shape-inference = "^0.0.2"
