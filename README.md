@@ -1,6 +1,6 @@
 # onnx-ngraph-rs
 
-[![Build Status](https://travis-ci.com/crackcomm/onnx-ngraph-rs.svg?branch=master)](https://travis-ci.com/crackcomm/onnx-ngraph-rs)
+[![Build Status](https://travis-ci.org/crackcomm/onnx-ngraph-rs.svg?branch=master)](https://travis-ci.org/crackcomm/onnx-ngraph-rs)
 
 Helpers for compiling [ONNX](https://github.com/onnx/onnx) graphs using [nGraph](https://github.com/NervanaSystems/ngraph/) compiler.
 
