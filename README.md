@@ -19,7 +19,7 @@ Codegen in nGraph works currently only on Linux.
 
 ### Windows
 
-?
+It could work on Windows using interpreter backend but doesn't.
 
 ## Usage
 
