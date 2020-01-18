@@ -1,0 +1,15 @@
+---
+cache: cargo
+dist: xenial
+install:
+  - "source ~/.cargo/env || true"
+language: rust
+env: TARGET=x86_64-unknown-linux-gnu
+notifications:
+  email:
+    on_success: never
+script:
+  - "travis_wait cargo build --examples"
+  - "cargo test"
+  - "cargo run --example main"
+sudo: required
