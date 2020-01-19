@@ -12,5 +12,5 @@ ngraph = { git = "https://github.com/crackcomm/ngraph-rs.git" }
 onnx-pb = "^0.1.1"
 
 [dev-dependencies]
-onnx-helpers = "^1.0.0"
+onnx-helpers = "^1.2.0"
 onnx-shape-inference = "^1.0.0"
