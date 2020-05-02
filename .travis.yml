@@ -4,7 +4,7 @@ dist: xenial
 install:
   - "source ~/.cargo/env || true"
 language: rust
-env: TARGET=x86_64-unknown-linux-gnu
+env: NGRAPH_CPU_ENABLE=OFF
 notifications:
   email:
     on_success: never
