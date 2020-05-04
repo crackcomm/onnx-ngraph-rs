@@ -13,4 +13,4 @@ onnx-pb = "^0.1.1"
 
 [dev-dependencies]
 onnx-helpers = { git = "https://github.com/crackcomm/onnx-helpers-rs.git" }
-onnx-shape-inference = { git = "https://github.com/crackcomm/onnx-shape-inference-rs.git" }
+onnx-shape-inference = "^1.0.0"
